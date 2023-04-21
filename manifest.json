@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Copy URL of current tab and display in popup window",
+  "icons": {
+    "16": "icons/pcore_icon_16.png",
+    "24": "icons/pcore_icon_24.png",
+    "32": "icons/pcore_icon_32.png",
+    "48": "icons/pcore_icon_48.png",
+    "128": "icons/pcore_icon_128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
