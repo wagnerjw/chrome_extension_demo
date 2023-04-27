@@ -4,7 +4,7 @@ chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
   document.getElementById('url').textContent = url;
 });
 
-
+// -----------------------------------------------------------------------------------------------------
 // Explanation from ChatGPT:
 // -----------------------------------------------------------------------------------------------------
 // 1 - chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {  
