@@ -1,5 +1,6 @@
 chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
   var url = tabs[0].url;
+  url = url.replace('http://', '').replace('https://', '').replace('www.','')
   document.getElementById('url').href = url;
   document.getElementById('url').textContent = url;
 });
